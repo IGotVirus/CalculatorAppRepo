@@ -5,7 +5,8 @@ decimal numberTwo;
 
 Console.WriteLine("Hello, please choose the arithmetic operation type and press enter: ");
 Console.WriteLine();
-Console.WriteLine(" Press 1 for: \"-\"\n Press 2 for: \"+\"\n Press 3 for: \"*\"\n Press 4 for: \"/\"");
+Console.WriteLine(" Press 1 for: \"-\"\n Press 2 for: \"+\"\n Press 3 for: \"*\"\n Press 4 for: \"/\"\n");
+Console.Write("Your choice: ");
 int userOperatorInput = Convert.ToInt32(Console.ReadLine());
 Console.Clear();
 
